@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hotpink;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+footer {
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+}
+
+.title {
+    transition: .3s;
+}
+
+.title:hover {
+  text-shadow: 0 2px 3px black;
+}
+
